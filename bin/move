@@ -9,4 +9,4 @@ puts "Where would you like to go?"
 input = gets.strip.to_i
 # convert the user's input
 # to an array index using our #input_to_index method and store this as the variable index
-index = input[]
+input_to_index(input)
