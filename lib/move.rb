@@ -12,7 +12,6 @@ def input_to_index(user_input)
   new_user_input - 1
 end
 
-
 def move(board, position, char = "X")
   #place character at index 0 of board array
   board[position] = char
