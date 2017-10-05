@@ -7,4 +7,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 input = gets.strip
+# convert the user's input
+# to an array index using our #input_to_index method and store this as the variable index
 index = input[]
