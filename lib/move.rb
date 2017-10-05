@@ -14,5 +14,6 @@ end
 
 def move(board, position, char = "X")
   #place character at index 0 of board array
+  i = 0
   board[i] = char
 end
