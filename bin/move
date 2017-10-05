@@ -11,3 +11,4 @@ input = gets.strip.to_i
 # to an array index using our #input_to_index method and store this as the variable index
 index = input_to_index(input)
 move(board, index)
+display_board(board)
